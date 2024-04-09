@@ -27,6 +27,7 @@ function QuizHome() {
     }
   }, [questions]);
 
+  
   useEffect(() => {
     if (activeIndex === questions.length - 1) {
       setShowResult(true);
